@@ -26,6 +26,11 @@ Slack MCP accepts standard markdown. Use familiar markdown syntax when composing
 | Bulleted list | `- item` |
 | Numbered list | `1. item` |
 
+Not supported:
+  - Tables       
+  - Headers `(#, ##, etc.)`            
+  - Images via markdown `(![alt](url))`
+
 ## Message Structure Guidelines
 
 - **Lead with the point.** Put the most important information in the first line. Many people read Slack on mobile or in notifications where only the first line shows.
